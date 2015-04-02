@@ -1,0 +1,117 @@
+html{
+	font-size: 12px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size:1rem; 
+	height:480px;
+	margin:0; 
+	padding:0;
+	font-family: HelveticaNeue,"黑体",Droid sans fallback;
+	color: white;
+}
+section,p,.timeline{
+	margin:0; 
+	padding:0;
+	text-align: center;
+}
+p{
+	padding: 10px 0 5px 0;
+}
+.pl1{
+	font-size: 1.2rem;
+}
+.pl2{
+	font-size: 1rem;
+}
+.pl3{
+	font-size: 1.4rem;
+}
+.name{
+	margin-left: 5px;
+}
+.order{
+	color:#67A9F9;
+	font-size: 2.2rem;
+	padding: 0 10px;
+}
+
+.timeline{
+	background-color: white;
+	position: relative;
+	color:black;
+	margin:auto;
+	margin-top: 10%;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.timeline p{
+	text-align: left;
+	font-size: 1rem;
+	position: relative;
+}
+.timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  left: 5%;
+  height: 100%;
+  width: 2px;
+  background: #E9F0F5;
+ }
+.timeline_block{
+	padding:2% 5%; 
+}
+.timeline_content{
+  position: relative;
+  margin-left: 5%;
+}
+.timeline_content p{
+	padding: 0;
+}
+.timeline_pic{
+  position: relative;
+  left: -4px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  boder:#E9F0F5;
+  box-shadow: 0 0 0 2px #E9F0F5 ;
+  float: left;
+  }
+.top{
+	height:50%;
+	background: -webkit-linear-gradient(left, rgba(9,13,69,1), rgba(41,82,188,1)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgba(9,13,69,1), rgba(41,82,188,1)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgba(9,13,69,1), rgba(41,82,188,1)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgba(9,13,69,1) , rgba(41,82,188,1)); /* 标准的语法 */
+}
+.bottom{
+	height: 50%;
+	background-color: #E9F0F5;
+}
+.bottom div{
+	padding: 1% 0;
+}
+.bottom button{
+	margin-top: 40%;
+	width: 100px;
+	height: 30px;
+	font-size: 1rem;
+	background-color: #1B61A5;
+	color: white;
+	border: none;
+}
+.bottom img{
+	width: 14px;
+	height: 14px;
+}
+.bottom span{
+	font-size: 1rem;
+	color: black;
+}
