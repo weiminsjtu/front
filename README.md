@@ -1,2 +1,1 @@
-# front
-web前端
+# leetcode js code
